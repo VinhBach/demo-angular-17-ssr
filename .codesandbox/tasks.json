@@ -17,7 +17,7 @@
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": true
+      "runAtStart": false
     },
     "build": {
       "name": "build",
@@ -37,6 +37,9 @@
     "serve:ssr:a17-ssr": {
       "name": "serve:ssr:a17-ssr",
       "command": "npm run serve:ssr:a17-ssr",
+      "preview": {
+        "port": 4000
+      },
       "runAtStart": false
     }
   }
